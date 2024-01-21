@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form action="" class="form" id="form">
+
+        <div class="form-control">
+          <label>Username</label>
+          <input type="text" placeholder="eg.Samar_verma" id="username" />
+          <i class="fas fa-check-circle" id="icon"></i>
+          <i class="fas fa-exclamation-circle" id="icon"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Email</label>
+          <input type="email" placeholder="eg.Samar@gmail.com" id="email" />
+          <i class="fas fa-check-circle" id="icon"></i>
+          <i class="fas fa-exclamation-circle" id="icon"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Password</label>
+          <input type="password" placeholder="eg.Password" id="password" />
+          <i class="fas fa-check-circle" id="icon"></i>
+          <i class="fas fa-exclamation-circle" id="icon"></i>
+          <small>Error Message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Password Check</label>
+          <input type="password" placeholder="Re enter password" id="password2" />
+          <i class="fas fa-check-circle" id="icon"></i>
+          <i class="fas fa-exclamation-circle" id="icon"></i>
+          <small>Error Message</small>
+        </div>
+
+        <button id="button" type="submit">Submit</button>
+
+      </form>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
